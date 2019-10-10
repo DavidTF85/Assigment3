@@ -58,13 +58,6 @@ function SD(data) {
 
 
 
-function variance() {
-
-    }
-
-
-
-
 
 const  DATA = [1,2,2,3,4];
 var element = document.getElementById("range");

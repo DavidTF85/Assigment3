@@ -21,7 +21,7 @@ function check() {
   else if (value >= 660 && value < 2200) {
     document.getElementById("value1").innerHTML =  "HYGIENIC RATING : MAJOR OBJECTIONS ";
     document.getElementById("value2").innerHTML = "HYGIENIC RATING : NO RELEVANT OBJECTIONS ";
-    document.getElementById("value3").innerHTML = "RECOMMENDATION : INTENSIFIED VENTILATION / AIRING RECOMMENDED SEARCH FOR SOURCES ";
+    document.getElementById("value3").innerHTML = "RECOMMENDATION : INTENSIFIED VENTILATION / AIRING NECESSARY SEARCH FOR SOURCES ";
     document.getElementById("value4").innerHTML = "EXPOSURE LIMIT : < 1 MONTH ";
   }
   else if (value >= 2200 && value <= 5500) {

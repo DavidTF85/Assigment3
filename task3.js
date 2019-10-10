@@ -7,8 +7,8 @@ function getMax(){
   return Math.max(...Temperature_arr)
 }
 
-var  minElement = document.getElementById("min");
+var  minElement = document.getElementById("The Mimimum number is:");
 minElement.innerHTML =getMin();
 
-var  maxElement = document.getElementById("max");
+var  maxElement = document.getElementById("The Max number is:");
 maxElement.innerHTML =getMax();
